@@ -10,7 +10,7 @@ namespace BacktrackingLibraryPlayground
     {
         public bool areAllMet(T subject)
         {
-            return this.AsParallel().Count(c => c.isMet(subject) == false) == 0;
+            return this.All(c => c!=null && c.isMet(subject) == true);
         }
 
         public Constraint<T> add()
