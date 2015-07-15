@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Class Library", "Class Library", "{73361BB7-721E-41E8-B57D-8F2A565861A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstraintSatisfactionSolver", "BacktrackingLibraryPlayground\ConstraintSatisfactionSolver.csproj", "{90C5544B-6F16-4724-8511-D822AF874A47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstraintSatisfactionSolver.Tests", "BacktrackingLibraryPlayground.Tests\ConstraintSatisfactionSolver.Tests.csproj", "{DF86EA3D-5FCA-4FAA-A71E-838FA6C29F3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90C5544B-6F16-4724-8511-D822AF874A47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C5544B-6F16-4724-8511-D822AF874A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C5544B-6F16-4724-8511-D822AF874A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C5544B-6F16-4724-8511-D822AF874A47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF86EA3D-5FCA-4FAA-A71E-838FA6C29F3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF86EA3D-5FCA-4FAA-A71E-838FA6C29F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF86EA3D-5FCA-4FAA-A71E-838FA6C29F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF86EA3D-5FCA-4FAA-A71E-838FA6C29F3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{90C5544B-6F16-4724-8511-D822AF874A47} = {73361BB7-721E-41E8-B57D-8F2A565861A1}
+		{DF86EA3D-5FCA-4FAA-A71E-838FA6C29F3E} = {73361BB7-721E-41E8-B57D-8F2A565861A1}
+	EndGlobalSection
+EndGlobal
